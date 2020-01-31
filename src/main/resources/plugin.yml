@@ -1,0 +1,6 @@
+name: ZCLojas
+version: 1.0
+main: stanic.zclojas.Main
+author: Stanic
+commands:
+  shop:
