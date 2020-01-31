@@ -20,7 +20,6 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        saveResource("settings.yml", false);
         getCommand("shop").setExecutor(new ShopCommand());
 
         db = new MongoDB();
