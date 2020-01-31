@@ -13,7 +13,7 @@ public class MongoDB {
 
     private MongoClient client;
 
-    public Boolean exists() {
+    private Boolean exists() {
         return getDatabase().listCollectionNames().into(new ArrayList<>()).contains("shops");
     }
 

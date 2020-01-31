@@ -4,8 +4,8 @@ import org.bukkit.Location;
 
 public class Shop {
 
-    String player;
-    Location location;
+    private String player;
+    private Location location;
 
     public Shop(String player, Location location) {
         this.player = player;
@@ -16,15 +16,8 @@ public class Shop {
         return player;
     }
 
-    public void setPlayer(String player) {
-        this.player = player;
-    }
-
     public Location getLocation() {
         return location;
     }
 
-    public void setLocation(Location location) {
-        this.location = location;
-    }
 }
